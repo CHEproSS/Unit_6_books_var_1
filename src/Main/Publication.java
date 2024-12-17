@@ -1,6 +1,6 @@
 package Main;
 
-public interface IPublication {
+public interface Publication {
     String getName();
     String getAuthor();
     int getYearOfPublication();
