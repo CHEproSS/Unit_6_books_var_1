@@ -1,6 +1,6 @@
 package Main;
 
-public abstract class Book implements IPublication {
+public abstract class Book implements Publication {
     private String name;
     private String author;
     private int yearOfPublication;
