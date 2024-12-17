@@ -1,3 +1,5 @@
+package Main;
+
 public abstract class Book implements IPublication {
     private String name;
     private String author;
@@ -24,5 +26,5 @@ public abstract class Book implements IPublication {
         return yearOfPublication;
     }
 
-    public abstract void getInfo();
+    public abstract String getInfo();
 }

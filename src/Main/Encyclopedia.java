@@ -1,3 +1,5 @@
+package Main;
+
 public class Encyclopedia extends Book {
     private int amountOfVolumes;
 
@@ -11,12 +13,12 @@ public class Encyclopedia extends Book {
     }
 
     @Override
-    public void getInfo(){
-        System.out.println("Encyclopedia:");
-        System.out.println("Name: " + getName());
-        System.out.println("Author: " + getAuthor());
-        System.out.println("Year of publication: " + getYearOfPublication());
-        System.out.println("Amount of volumes: " + getAmountOfVolumes());
+    public String getInfo(){
+        return ("Encyclopedia:" +
+                "Name: " + getName() +
+                "Author: " + getAuthor() +
+                "Year of publication: " + getYearOfPublication() +
+                "Amount of volumes: " + getAmountOfVolumes());
     }
 
 
