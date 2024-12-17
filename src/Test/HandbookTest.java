@@ -13,7 +13,6 @@ class HandbookTest {
                 "Ivan Gorov ",
                 1990,
                 "Engineering");
-        //String theme = handbook.getTheme();
         Assertions.assertEquals("Engineering",handbook.getTheme());
     }
 
